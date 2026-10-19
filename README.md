@@ -1,67 +1,31 @@
-﻿# Calculadora Grafica
+﻿# ðŸ§® Calculadora GrÃ¡fica (Swing)
 
-Calculadora basica con interfaz grafica Swing.
+Calculadora bÃ¡sica con interfaz grÃ¡fica desarrollada en **Swing**.
 
-## Detalle
+## ðŸ“‹ CaracterÃ­sticas
 
-| | |
-|---|---|
-| Tipo | Swing |
-| Archivos Java | 4 |
-| Version de Java | 21 |
-| Patron | Arquitectura MVC con Swing |
+- Operaciones aritmÃ©ticas bÃ¡sicas
+- Interfaz grÃ¡fica con Swing
+- CÃ³digo sencillo y educativo
 
-## Funcionalidades
+## ðŸ› ï¸ TecnologÃ­as
 
-- Interfaz grafica Swing
-- Operaciones basicas
-- Constantes centralizadas
-- Controlador de eventos
+- Java + Swing
+- Maven
 
-## Estructura del proyecto
-
-```
-calculadoraGUI/
-|-- pom.xml       configuracion de Maven, importable desde cualquier IDE
-|-- src/          codigo fuente
-`-- README.md
-```
-
-## Como ejecutarlo
-
-### Con Maven
+## ðŸš€ CÃ³mo ejecutar
 
 ```bash
+git clone https://github.com/P2X4A/calculadoraGUI.git
+cd calculadoraGUI
 mvn clean compile
-mvn exec:java
+mvn exec:java -Dexec.mainClass="AplMain"
 ```
 
-### Con javac directamente
+## ðŸ‘¨â€ðŸ’» Autor
 
-```bash
-# Linux / macOS
-javac -d bin $(find src -name "*.java")
+Sergio Parra
 
-# Windows (PowerShell)
-javac -d bin (Get-ChildItem -Recurse -Filter *.java src).FullName
-```
+---
 
-```bash
-java -cp bin co.edu.unbosque.controller.AplMain
-```
-
-### Desde un IDE
-
-Cualquier IDE con soporte de Java (Eclipse, IntelliJ IDEA, VS Code o NetBeans)
-puede importar el proyecto directamente como **proyecto Maven**. Basta con abrir
-o importar la carpeta: el IDE detecta el `pom.xml`, resuelve las dependencias y
-compila sin configuracion adicional.
-
-## Autor
-
-Desarrollado por [Sergio Parra](https://github.com/P2X4A) como parte de su
-formacion en Java.
-
-## Licencia
-
-Ver el archivo [LICENSE](LICENSE).
+*Proyecto acadÃ©mico para portafolio.*
